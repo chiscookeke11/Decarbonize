@@ -18,10 +18,11 @@ const Button: FC<ButtonProps> = ({ children, className = "", ...props }) => {
         hover:brightness-110
         transition-all
         duration-200
+        cursor-pointer
         ${className}
       `}
     >
-      {children} 
+      {children}
     </button>
   );
 };

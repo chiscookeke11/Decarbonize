@@ -17,7 +17,7 @@ export default function Navbar() {
 
 
 
-            <Button onClick={() => alert("Clicked!")}>Download</Button>
+            <Button aria-label="download" onClick={() => alert("Clicked!")}>Download</Button>
 
         </nav>
     )
