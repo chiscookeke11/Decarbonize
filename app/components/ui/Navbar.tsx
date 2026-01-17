@@ -59,7 +59,8 @@ export default function Navbar() {
             {/* Mobile menu button */}
             <button
                 aria-label={showMenu ? "close menu" : "open menu"}
-                onClick={() => setShowMenu(!showMenu)} className="md:hidden block cursor-pointer">
+                onClick={() => setShowMenu(!showMenu)}
+                 className="md:hidden block cursor-pointer">
                 <HugeiconsIcon
                     icon={showMenu ? Cancel02Icon : MenuSquareIcon}
                     size={24}

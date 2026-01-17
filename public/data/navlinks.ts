@@ -2,13 +2,12 @@
 
 
 export const navLinks = [
-
     {
-        label: "How It Works",
+        label: "Features",
         path: "/"
     },
     {
-        label: "Features",
+        label: "How It Works",
         path: "/"
     },
 
@@ -16,6 +15,7 @@ export const navLinks = [
         label: "Carbon Offsets",
         path: "/"
     },
+
     {
         label: "Impact",
         path: "/"
