@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Features() {
     return (
-        <section className="relative w-full max-w-8xl mx-auto px-6 py-24 text-[#e1e4d8] rounded-xl overflow-hidden my-36 ">
+        <section className="relative w-[96%] max-w-8xl mx-auto px-6 py-24 text-[#e1e4d8] rounded-xl overflow-hidden my-28 ">
 
             {/* Background image */}
             <Image

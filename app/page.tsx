@@ -1,12 +1,14 @@
 import Features from "./components/homepage_components/Features";
 import Hero from "./components/homepage_components/Hero";
+import HowItWorks from "./components/homepage_components/HowItWorks";
 
 
 export default function Home() {
   return (
-    <div className="px-[3%] md:px-[4%] " >
+    <div  >
       <Hero/>
       <Features/>
+      <HowItWorks/>
     </div>
   );
 }
