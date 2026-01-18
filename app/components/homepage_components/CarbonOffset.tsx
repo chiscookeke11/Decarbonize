@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function CarbonOffset() {
     return (
-        <section className="w-full py-16 px-6 text-[#062626] bg-[#e1e4d8] font-pptelegraph my-20 ">
+        <section id="carbon-offset" className="w-full py-16 px-6 text-[#062626] bg-[#e1e4d8] font-pptelegraph my-20 ">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
 
                 {/* Heading */}

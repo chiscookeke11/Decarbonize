@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/ui/Navbar";
 import localFont from 'next/font/local';
+import Footer from "./components/ui/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,14 +16,14 @@ const geistMono = Geist_Mono({
 });
 
 const pptelegraph = localFont({
-   src: [
+  src: [
     {
       path: '../public/fonts/PPTelegraf-Regular-BF6417cecb5d571.otf',
       weight: '400',
       style: 'normal',
     },
   ],
-   variable: '--font-pptelegraph',
+  variable: '--font-pptelegraph',
 })
 
 export const metadata: Metadata = {
@@ -41,8 +42,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${pptelegraph.variable} antialiased`}
       >
-        <Navbar/>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

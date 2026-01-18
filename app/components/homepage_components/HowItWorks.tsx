@@ -6,7 +6,7 @@ import HexagonOutline from "./HexagonOutline";
 
 export default function HowItWorks() {
     return (
-        <section className="w-full flex flex-col md:flex-row py-32 px-6 bg-[#072d2d] items-center justify-center gap-16 font-pptelegraph my-16 md:my-36 ">
+        <section id="how-it-works" className="w-full flex flex-col md:flex-row py-32 px-6 bg-[#072d2d] items-center justify-center gap-16 font-pptelegraph my-16 md:my-36 ">
 
             {/* Left: Visual */}
             <div className="w-full md:w-1/2 flex items-center justify-center relative ">

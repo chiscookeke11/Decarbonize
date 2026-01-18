@@ -41,7 +41,7 @@ export default function Navbar() {
             {/* Desktop links */}
             <ul className="hidden md:flex text-lg items-center justify-evenly md:gap-5 lg:gap-7 font-semibold">
                 {navLinks.map((link, index) => (
-                    <li key={index} className="cursor-pointer">
+                    <li key={index} className="cursor-pointer hover:text-lime-800 ">
                         <Link href={link.path} >{link.label}</Link>
                     </li>
                 ))}
