@@ -31,7 +31,7 @@ export default function Navbar() {
     return (
         <nav
             ref={navRef}
-            className="py-8 px-5 w-[96%] lg:w-[70%] mx-auto flex items-center justify-between gap-10 text-[#072d2d] font-pptelegraph relative"
+            className="py-5 px-5 w-[96%] lg:w-[70%] mx-auto flex items-center justify-between gap-10 text-[#072d2d] font-pptelegraph relative"
         >
             {/* Logo */}
             <Link href={"/"}>
@@ -63,7 +63,7 @@ export default function Navbar() {
                  className="md:hidden block cursor-pointer">
                 <HugeiconsIcon
                     icon={showMenu ? Cancel02Icon : MenuSquareIcon}
-                    size={24}
+                    size={20}
                     color="#072d2d"
                     strokeWidth={1.8}
                     className="w-10 h-10"

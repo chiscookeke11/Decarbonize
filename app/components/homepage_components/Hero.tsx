@@ -9,7 +9,7 @@ import { ChevronRight } from "lucide-react";
 
 export default function Hero() {
     return (
-        <section className=" w-[90%] md:w-[90%] lg:w-full max-w-7xl rounded-3xl relative min-h-135  overflow-hidden my-18 font-pptelegraph mx-auto ">
+        <section className=" w-[90%] md:w-[90%] lg:w-full max-w-7xl rounded-3xl relative min-h-135  overflow-hidden my-18 font-pptelegraph mx-auto mt-36 md:mt-48 ">
             <div className="w-full absolute top-0 left-0 h-full bg-black/35 z-10 " />
             <Image
                 src={"/home-page-images/geranimo-qzgN45hseN0-unsplash.webp"}

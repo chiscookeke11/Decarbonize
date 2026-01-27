@@ -40,9 +40,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${pptelegraph.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${pptelegraph.variable} relative antialiased`}
       >
-        <Navbar />
+        <div className="fixed w-full top-0 left-0 z-50 bg-[#e1e4d8]  " >
+          <Navbar />
+        </div>
         {children}
         <Footer />
       </body>

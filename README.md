@@ -1,37 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# De-Carbonize 🌱
 
-## Getting Started
+De-Carbonize is a browser extension and web platform designed to help users monitor, measure, and reduce their digital carbon footprint. By tracking the energy usage of online activities, providing actionable insights, and rewarding sustainable behavior, De-Carbonize makes climate action both measurable and engaging.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [SDG Alignment](#sdg-alignment)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About
 
-## Learn More
+De-Carbonize helps users:
 
-To learn more about Next.js, take a look at the following resources:
+- Track the energy usage of digital activities.
+- Measure their carbon footprint in real-time.
+- Get actionable guidance to reduce emissions.
+- Offset unavoidable emissions responsibly.
+- Earn points and rewards for sustainable digital habits.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Our mission is to empower users to make greener digital choices while understanding the impact of their online behavior.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Digital Carbon Tracking** – Monitors energy usage from web browsing and online activities.
+- **Real-Time Insights** – Provides instant feedback on your carbon footprint.
+- **Rewards System** – Earn points for sustainable digital behavior.
+- **Privacy-First** – All data is processed locally on the device.
+- **Carbon Offset Guidance** – Suggests ways to offset unavoidable emissions responsibly.
+- **Sustainability Tips** – Offers actionable tips for greener digital habits.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Decarbonize" 
+---
+
+## Installation
+
+### Browser Extension
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/decarbonize.git
